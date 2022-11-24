@@ -84,6 +84,7 @@ header {
     text-decoration: none;
     color: var(--secndary);
     height: 100%;
+    width: 97.7%;
     transform: scale(1);
     transition-duration: .6s;
     opacity: 1;
@@ -92,6 +93,7 @@ header {
 #slivers a:hover {
     transform: scale(1.2);
     transition-duration: .6s;
+    width: 88.7%;
     opacity: 0.8;
 }
 
@@ -233,6 +235,7 @@ footer {
 
     #slivers a:hover {
         height: 83.5%;
+        width: 100%;
     }
 
     #video {
