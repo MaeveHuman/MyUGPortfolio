@@ -104,6 +104,10 @@ header {
     width: 50%;
 }
 
+#hero {
+    max-width: 100%;;
+}
+
 footer {
     background-color: var(--secndary);
     color: var(--primary);
