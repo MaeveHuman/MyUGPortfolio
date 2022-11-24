@@ -17,7 +17,7 @@ header {
     grid-template-columns: 200px 1fr;
     grid-template-rows: 100px 35px;
     align-items: center;
-    background-color: var(--primary);
+    background-color: var(--accent);
     padding: 1rem 0 0 .5rem;
 }
 
@@ -38,13 +38,13 @@ header {
 
 .nav-link {
     text-decoration: none;
-    color: var(--accent);
+    color: var(--primary);
     font-size: 1.2rem;
 }
 
 .nav-link:hover{
     color: black;
-    background-color: var(--primary);
+    background-color: var(--accent);
 }
 
 .active {
@@ -69,6 +69,18 @@ header {
 #slivers div h1 {
     margin: auto;
     grid-row: 2;
+}
+
+#slivers div {
+    transform: scale(1);
+    transition-duration: .5s;
+    opacity: 1;
+}
+
+#slivers div:hover {
+    transform: scale(1.2);
+    transition-duration: .5s;
+    opacity: 0.8;
 }
 
 .sliver {
