@@ -18,7 +18,7 @@ header {
     grid-template-rows: 100px 35px;
     align-items: center;
     background-color: var(--primary);
-    padding: .5rem .5rem 0 .5rem;
+    padding: 1rem 0 0 .5rem;
 }
 
 #logo {
@@ -36,17 +36,16 @@ header {
     background-color: var(--secndary);
 }
 
-.nav-link a {
+.nav-link {
     text-decoration: none;
     color: var(--accent);
     font-size: 1.2rem;
 }
 
-.nav-link:hover a, .nav-link:hover {
+.nav-link:hover{
     color: black;
     background-color: var(--primary);
 }
-
 
 .active {
     background-color: #0f534e;
