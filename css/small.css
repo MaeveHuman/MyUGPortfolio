@@ -4,6 +4,10 @@
     --accent: #B0A48A;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Nunito Sans";
     background-color: #F1EFE9;
@@ -27,7 +31,6 @@ header {
 
 #primary-nav {
     grid-column: 1/3;
-    display: block;
     background-color: var(--secndary);
 }
 
@@ -42,6 +45,16 @@ header {
 .nav-link:hover{
     color: black;
     background-color: var(--accent);
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 1600px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    z-index: 99;
 }
 
 .active {
@@ -94,6 +107,28 @@ header {
     margin: .8rem auto;
 }
 
+#topBtn {
+    display: none;
+    position: fixed;
+    bottom: 45px;
+    right: 50px;
+    z-index: 99;
+    border-radius: 50%;
+    background-color: var(--primary);
+    cursor: pointer;
+    padding: .5rem;
+    height: 60px;
+    aspect-ratio: 1/1;
+}
+
+#topBtn:hover {
+    background-color: var(--secndary);
+}
+
+#topBtn img {
+    width: 100%;
+}
+
 .construction-drawing {
     max-width: 1600px;
     width: 100%;
@@ -106,6 +141,33 @@ header {
 
 #hero {
     max-width: 100%;;
+}
+
+#portfolio-cont {
+    display: grid;
+    grid-template-columns: 40px 1fr 40px;
+    margin: .8rem auto;
+}
+
+#prev, #prev-btn {
+    max-width: 100%;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#next, #next-btn {
+    max-width: 100%;
+    grid-column: 3;
+    grid-row: 2;
+}
+.hidden {
+    display: none;
+}
+
+#portfolio-page {
+    max-width: 100%;
+    grid-column: 2;
+    grid-row: 1/4;
 }
 
 footer {
