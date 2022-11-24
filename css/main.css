@@ -72,12 +72,14 @@ header {
 }
 
 #slivers div {
+    height: 100%;
     transform: scale(1);
     transition-duration: .6s;
     opacity: 1;
 }
 
 #slivers div:hover {
+    height:85%;
     transform: scale(1.2);
     transition-duration: .6s;
     opacity: 0.8;
