@@ -96,7 +96,12 @@ header {
 }
 
 
-.construction-img {
+.construction-drawing {
     max-width: 1600px;
     width: 100%;
+}
+
+.construction-img {
+    max-width: 900px;
+    width: 50%;
 }
