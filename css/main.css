@@ -73,13 +73,13 @@ header {
 
 #slivers div {
     transform: scale(1);
-    transition-duration: .5s;
+    transition-duration: .6s;
     opacity: 1;
 }
 
 #slivers div:hover {
     transform: scale(1.2);
-    transition-duration: .5s;
+    transition-duration: .6s;
     opacity: 0.8;
 }
 
@@ -93,4 +93,10 @@ header {
     grid-column: 3/6;
     width: 100%;
     margin: .8rem 0;
+}
+
+
+.construction-img {
+    max-width: 1600px;
+    width: 100%;
 }
